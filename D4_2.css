@@ -1,0 +1,45 @@
+.outer
+{
+    background:green;
+    height:100%;
+    width:90%;
+    padding:10%;
+}
+.box1
+{
+    background:yellow;
+    width: 20%;
+    height:30%;  
+    float:left;
+    margin:20px;
+    margin-top:20px;
+}
+.box2
+{
+    background:red;
+    height:30%;
+    width:20%;
+    float:left;
+    margin:20px;
+    margin-top:20px;
+}
+
+.box3
+{
+    background:rgb(80, 1, 206);
+    height:30%;
+    
+    width:20%;
+    float:left;
+    margin-top:20px;
+    margin :20px;
+}
+.box4
+{
+    background:black;
+    width:20%;
+    height:30%;
+    margin :20px;
+    margin-top:20px;
+    float:left;
+}

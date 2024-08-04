@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Javascript 3</title>
+    </head>
+    <style>
+    #screen{
+        width:400px;
+        height:450px;
+        border: solid 10px;
+    }
+    </style>
+    <body>
+        <div id="screen">
+
+        </div>
+        <button onclick="color('red')">Red</button>
+        <button onclick="color('yellow')">yellow</button>
+        <button onclick="color('green')">green</button>
+        <button onclick="color('blue')">blue</button>
+   
+    <script>
+        function color(col)
+        {
+        document.getElementById("screen").style.background=col
+        }
+    </script>
+     </body>
+</html>

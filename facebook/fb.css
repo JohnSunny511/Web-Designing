@@ -1,0 +1,144 @@
+.header
+{
+    background: blue;
+    height: 85px;
+    width:  100%;
+}
+ 
+body
+{
+    margin: 0;
+    font-family:Helvetica Neue,Helvetica,Arial, sans-serif;
+}
+
+.logo
+{
+    width: 50%;
+    padding-top: 32px;
+    float:left;
+}
+
+.login
+{
+
+   width: 50%;
+   float:left;
+   padding-top:10px;
+}
+
+.logo-text
+{
+    color:white;
+    font-size:35px;
+    font-weight:bold;
+    text-decoration: none;
+    margin-left:170px;
+    font-family:Helvetica Neue,Helvetica,Arial, sans-serif;
+}
+
+.login-label
+{
+    color:#ffff;
+    font-size: 11px;
+ 
+}
+
+.login-controls
+{
+    margin-left:117px;
+}
+
+.forgotten
+{
+    color:#ffff;
+    text-decoration: none;
+}
+
+.sub-but
+{
+    color:#ffff;
+    background:#4267b2;
+    height:20px;
+    border-color:#29487d;
+    cursor:pointer;
+}
+
+.sub-but:hover
+{
+    background:red;
+}
+
+.left
+{
+    width: 50%;
+    float:left;
+    padding-left: 135px;
+    padding-top: 50px;
+}
+
+.right
+{
+    width:40%;
+    float:left;
+    height: 80%;
+}
+
+.main
+{
+    background: linear-gradient(white,#D3D8E8);
+    width:100%;
+    height:610px;
+}
+
+.img
+{
+    width: 500px;
+}
+
+.para
+{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pri1
+{
+    padding:7px;
+}
+
+.pri
+{
+    padding:7px;
+    margin-left:10px;
+}
+
+.labe
+{
+    font-size: 13px;
+    font-weight: bold;
+    color:gray;
+}
+
+.Day-set
+{
+    width: 50px;
+}
+
+.rad
+{
+    padding-right: 5px;
+}
+
+.log
+{
+   padding-top: 25px;
+}
+
+.logi
+{
+  padding: 15px 60px;
+  border-radius: 7px;
+  background-color: rgb(19, 194, 19);
+  color:white;
+  font-size: 25px;
+}

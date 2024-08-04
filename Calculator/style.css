@@ -1,0 +1,23 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    margin-left:500px;
+    background-color: grey;
+}
+
+#screen
+{
+    margin-left: 36px;
+    height:40px;
+    width:80%;
+    margin-top:30px;
+    pointer-events:none;
+}
+
+.but
+{
+    margin-top: 20px;
+    margin-left: 40px;
+    height:40px;
+    width:45px;
+}

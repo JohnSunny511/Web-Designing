@@ -1,0 +1,53 @@
+button
+{
+  color:gold;
+  background:rgb(163, 17, 17);
+}
+
+#para1
+{
+    color:blueviolet;
+    background:red; 
+}
+
+.cont
+{
+  background:green;
+  color:blue;
+}
+
+div
+{
+    height:206;
+    width:306;
+    color:black;
+    background:red;
+    margin-left:30px;
+    margin-right:89px;
+    margin-top:50px;
+    padding-top:40px;
+    padding-left:54px;
+    padding-right:50px;
+    border: 10px solid;
+    border-color:blue;
+}
+
+.outer-box{
+    border:solid 4px;
+    border-color:brown;
+    background:lavender;
+    color:black;
+    width:300px;
+    height:200px
+}
+.box{
+    margin-left:100px;
+    margin-right:50px;
+}
+
+.inner-div{
+    margin:10px;
+    background:green;
+    width:200px;
+    height:100px;
+}

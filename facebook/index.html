@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Facebook</title>
+        <link rel="stylesheet" href="fb.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                  <a class= "logo-text" href="facebook.html">facebook</a>
+                </div>
+                <div class="login">
+                    <form action="">
+                        <table class="login-controls">
+                            <tr>
+                                <td><label class="login-label">Email or mobile</label></td>
+                                <td><label class="login-label">Password</label></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input class="sub-but" type="submit" value="login"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><a class="forgotten" href="forgotten.html"> Forgotten account?</a></td>
+                            </tr>
+
+                        </table>
+                   </form>
+                
+                </div>
+            </div>
+            <div class="main">
+                <div class="left">
+                    <p class="para">Facebook helps you connect and share with the<br> people in your life</p>
+                    <img class="img" src="facebook.png" alt="img not found">
+                </div>
+                <div class="right">
+                    <h1>Create an account</h1>
+                    <h3>It's quick and easy</h3>
+                    <form id="signup-form">
+                    <div class="primary">
+
+
+                        
+                            <input name="fname"  class="pri1" type="text" placeholder="First Name">
+                            <input name="sname"  class="pri" type="text" placeholder="Surname">
+                        
+                    </div>
+                    <div>
+                        
+                            <br>
+                            <input name="mob" class="pri1" type="text" placeholder="Mobile Number" size="49">
+                        
+                    </div>
+                    <div>
+                        
+                            <br>
+                            <input name="passww" class="pri1" type="text" placeholder="New password" size="49">
+                        
+                    </div>
+                    <div>
+                        <br>
+                        <label class="labe">Birthday</label>
+                        <br>
+                        <select name="day" class="Day-set" name="" id="day">
+                            <option value="">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                        <select name="month" class="Day-set" name="" id="month">
+                            <option value="">Month</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                        </select>
+                        <select name="year" name="" id="year">
+                            <option value="">Year</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="">2001</option>
+                            <option value="">2002</option>
+                            <option value="">2003</option>
+                            <option value="">2004</option>
+                            <option value="">2005</option>
+                        </select>
+                        
+                    </div>
+                    <div>
+                    <br>
+                    <label>Gender</label>
+                    </div>
+                    <br>
+                    <div class="rad">
+                    <input name="gender" type="radio">
+                    <label>Male</label>
+                    <input name="gender" type="radio">
+                    <label>Female</label>
+                    <input name="gender" type="radio">
+                    <label>Custom</label>
+                    </div>
+                    <div class="log">
+                        <button class="logi">Sign Up</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</html>
